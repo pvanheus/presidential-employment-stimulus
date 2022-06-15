@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202202",
+    "month": "202204",
     "name": "Programme overview",
     "lead": "Building a society that works: Continuity and change",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impact of the coronavirus pandemic. Its aim is to create jobs and strengthen livelihoods, supporting meaningful work while the labour market recovers. It also recognises that this is a moment of opportunity for change \u2013 for new ways of working, and new forms of innovation, in response to a crisis of unemployment that pre-dates the pandemic. In Phase One it was able to deliver over 500,000 jobs and opportunties in just five months, with implementation of many of these programmes still continuing. Phase Two builds on this, with both continuity and change, through the introduction of a range of new programmes, all with the same aim: to build back better. \nThis dashboard tracks the performance of all programmes contributing to the Presidential Employment Stimulus. It reflects work in progress, with the data updated regularly. ",
@@ -11,7 +11,7 @@
       ],
       [
         "202110",
-        "202202"
+        "202204"
       ]
     ],
     "footer_header": "Disclaimer",
@@ -26,9 +26,9 @@
             "metric_type": "currency",
             "value": [
               12634178000,
-              10954000000
+              10954000000.0
             ],
-            "total_value": 23588178000,
+            "total_value": 23588178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -43,9 +43,9 @@
             "metric_type": "count",
             "value": [
               563108,
-              296146
+              315972
             ],
-            "total_value": 859254,
+            "total_value": 879080,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6630636649763194,
-              "1": 0.5890527851904124
+              "1": 0.5785263182319929
             },
-            "total_value": 0.626058225083366,
+            "total_value": 0.6207949916041562,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -74,9 +74,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.796870572499581,
-              "1": 0.8951550943926226
+              "1": 0.8740708846996584
             },
-            "total_value": 0.8460128334461019,
+            "total_value": 0.8354707285996197,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -181,7 +181,7 @@
         ],
         "value": {
           "0": 563108,
-          "1": 296146
+          "1": 315972
         },
         "value_target": {
           "0": 694152.0,
@@ -197,9 +197,9 @@
             "metric_type": "job_opportunities",
             "value": {
               "0": 380044,
-              "1": 294537
+              "1": 306415
             },
-            "total_value": 674581,
+            "total_value": 686459,
             "viz": "full",
             "dimensions": [
               {
@@ -222,7 +222,7 @@
                     "key": "DFFE",
                     "value": {
                       "0": 23943,
-                      "1": 4549
+                      "1": 5145
                     },
                     "value_target": {
                       "0": 50311.0,
@@ -261,6 +261,26 @@
                     }
                   },
                   {
+                    "key": "NT",
+                    "value": {
+                      "1": 6234
+                    },
+                    "value_target": {
+                      "1": 35000.0
+                    }
+                  },
+                  {
+                    "key": "DSD",
+                    "value": {
+                      "0": 0,
+                      "1": 5399
+                    },
+                    "value_target": {
+                      "0": 500.0,
+                      "1": 3880.0
+                    }
+                  },
+                  {
                     "key": "DoH",
                     "value": {
                       "0": 4758,
@@ -272,21 +292,19 @@
                     }
                   },
                   {
-                    "key": "DSD",
+                    "key": "DHET",
                     "value": {
-                      "0": 0,
-                      "1": 3099
+                      "1": 2666
                     },
                     "value_target": {
-                      "0": 500.0,
-                      "1": 3880.0
+                      "1": 7500.0
                     }
                   },
                   {
                     "key": "DSI",
                     "value": {
                       "0": 751,
-                      "1": 1427
+                      "1": 1486
                     },
                     "value_target": {
                       "0": 1900.0,
@@ -316,7 +334,7 @@
                   {
                     "key": "Tourism",
                     "value": {
-                      "1": 918
+                      "1": 941
                     },
                     "value_target": {
                       "1": 1064.0
@@ -338,24 +356,6 @@
                     },
                     "value_target": {
                       "1": 250.0
-                    }
-                  },
-                  {
-                    "key": "DHET",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 7500.0
-                    }
-                  },
-                  {
-                    "key": "NT",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 35000.0
                     }
                   }
                 ],
@@ -448,7 +448,17 @@
                   },
                   {
                     "key": "202202",
-                    "value": 662455,
+                    "value": 663051,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202203",
+                    "value": 665791,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202204",
+                    "value": 674333,
                     "value_target": null
                   }
                 ],
@@ -467,9 +477,9 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 142665,
-              "1": 1609
+              "1": 9557
             },
-            "total_value": 144274,
+            "total_value": 152222,
             "viz": "full",
             "dimensions": [
               {
@@ -481,7 +491,7 @@
                     "key": "DALRRD",
                     "value": {
                       "0": 56149,
-                      "1": 0
+                      "1": 7948
                     },
                     "value_target": {
                       "0": 74626,
@@ -610,6 +620,16 @@
                   {
                     "key": "202202",
                     "value": 144274,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202203",
+                    "value": 152222,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202204",
+                    "value": 152222,
                     "value_target": null
                   }
                 ],
@@ -763,6 +783,16 @@
                     "key": "202202",
                     "value": 40399,
                     "value_target": null
+                  },
+                  {
+                    "key": "202203",
+                    "value": 40399,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202204",
+                    "value": 40399,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -793,7 +823,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -1912,7 +1942,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -1931,7 +1961,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 7948.0,
                   "dimensions": [],
                   "value_target": 67378.0,
                   "implementation_detail": null
@@ -1954,35 +1984,129 @@
                 {
                   "name": "Vegetables and Fruits",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 3497,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 162,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 461,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 2047,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 410,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 262,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 150,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 2,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 3497,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 3497,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.09,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.35,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.261,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -1991,35 +2115,129 @@
                 {
                   "name": "Maize/soya/sugar/other production",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 1069,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 46,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 48,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 755,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 81,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 128,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 10,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1069,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1069,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.031,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.104,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.073,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -2028,35 +2246,129 @@
                 {
                   "name": "Poultry: Layers and Boilers",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 1746,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 255,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 175,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 935,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 216,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 86,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 74,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1746,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1746,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.058,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.161,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.143,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -2065,35 +2377,129 @@
                 {
                   "name": "Small livestock",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 1030,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 208,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 34,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 434,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 110,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 48,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 188,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1030,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1030,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.053,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.077,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.087,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -2102,35 +2508,129 @@
                 {
                   "name": "Large livestock",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 606,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 39,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 293,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 50,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 104,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 86,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 606,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 606,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.033,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.043,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.049,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -2167,7 +2667,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2747,7 +3247,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2766,7 +3266,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 276627,
+                  "value": 276627.0,
                   "dimensions": [],
                   "value_target": 287000.0,
                   "implementation_detail": null
@@ -2859,6 +3359,16 @@
                         },
                         {
                           "key": "202202",
+                          "value": 183533,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 183533,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
                           "value": 183533,
                           "value_target": null
                         }
@@ -2986,6 +3496,16 @@
                           "key": "202202",
                           "value": 93094,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 93094,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 93094,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -3061,7 +3581,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3080,7 +3600,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 0.0,
                   "implementation_detail": null
@@ -3166,7 +3686,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3385,7 +3905,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3404,7 +3924,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7607,
+                  "value": 7607.0,
                   "dimensions": [],
                   "value_target": 11818.0,
                   "implementation_detail": null
@@ -3499,6 +4019,16 @@
                           "key": "202202",
                           "value": 7607,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 7607,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 7607,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -3574,7 +4104,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3593,7 +4123,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1609,
+                  "value": 1609.0,
                   "dimensions": [],
                   "value_target": 37000.0,
                   "implementation_detail": null
@@ -3733,6 +4263,16 @@
                           "key": "202202",
                           "value": 1609,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1609,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1609,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -3797,7 +4337,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3816,7 +4356,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 250.0,
                   "implementation_detail": null
@@ -3943,7 +4483,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5243,7 +5783,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5262,7 +5802,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 4549,
+                  "value": 5145.0,
                   "dimensions": [],
                   "value_target": 8150.0,
                   "implementation_detail": null
@@ -5278,7 +5818,7 @@
                 {
                   "name": "SANBI",
                   "metric_type": "count",
-                  "value": 1609,
+                  "value": 2205,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -5287,32 +5827,32 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 761,
+                          "value": 934,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 18,
+                          "value": 16,
                           "value_target": null
                         },
                         {
                           "key": "GP",
-                          "value": 98,
+                          "value": 103,
                           "value_target": null
                         },
                         {
                           "key": "KZN",
-                          "value": 72,
+                          "value": 131,
                           "value_target": null
                         },
                         {
                           "key": "LP",
-                          "value": 63,
+                          "value": 128,
                           "value_target": null
                         },
                         {
                           "key": "MP",
-                          "value": 26,
+                          "value": 225,
                           "value_target": null
                         },
                         {
@@ -5322,12 +5862,12 @@
                         },
                         {
                           "key": "NC",
-                          "value": 31,
+                          "value": 25,
                           "value_target": null
                         },
                         {
                           "key": "WC",
-                          "value": 540,
+                          "value": 643,
                           "value_target": null
                         }
                       ],
@@ -5355,7 +5895,17 @@
                         },
                         {
                           "key": "202202",
-                          "value": 1609,
+                          "value": 2205,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 2205,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 2205,
                           "value_target": null
                         }
                       ],
@@ -5368,12 +5918,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.5,
+                          "value": 0.52,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.5,
+                          "value": 0.48,
                           "value_target": null
                         }
                       ],
@@ -5386,7 +5936,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.69,
+                          "value": 0.74,
                           "value_target": null
                         }
                       ],
@@ -5476,6 +6026,16 @@
                         },
                         {
                           "key": "202202",
+                          "value": 1812,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1812,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
                           "value": 1812,
                           "value_target": null
                         }
@@ -5685,6 +6245,16 @@
                           "key": "202202",
                           "value": 1128,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1128,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1128,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -5693,15 +6263,32 @@
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.45,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.55,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.38,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 130.0,
@@ -5743,7 +6330,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6241,7 +6828,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6260,7 +6847,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 2568.0,
                   "implementation_detail": null
@@ -6383,7 +6970,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6402,7 +6989,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 2666.0,
                   "dimensions": [],
                   "value_target": 7500.0,
                   "implementation_detail": null
@@ -6457,9 +7044,9 @@
                   }
                 },
                 {
-                  "name": "Universities: Graduate Assistants",
+                  "name": "Universities: Graduate Placements",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 2666,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -6472,8 +7059,39 @@
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 2666,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 2666,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
@@ -6492,7 +7110,7 @@
                   ],
                   "value_target": 3000.0,
                   "implementation_detail": {
-                    "programme_name": "Universities: Graduate Assistants",
+                    "programme_name": "Universities: Graduate Placements",
                     "status": "OnTrack",
                     "detail": "Through UCAF all 26 universities have come on board and the rollout of posts and appointments is underway."
                   }
@@ -6529,7 +7147,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6548,7 +7166,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 6234.0,
                   "dimensions": [],
                   "value_target": 35000.0,
                   "implementation_detail": null
@@ -6564,21 +7182,98 @@
                 {
                   "name": "Neighbourhood Development Partnership: PEPS for Metros Programme",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 6234,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1600,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 3294,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1340,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 6234,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
@@ -6634,7 +7329,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -7936,7 +8631,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8649,7 +9344,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8668,7 +9363,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1427,
+                  "value": 1486.0,
                   "dimensions": [],
                   "value_target": 1650.0,
                   "implementation_detail": null
@@ -8761,6 +9456,16 @@
                         },
                         {
                           "key": "202202",
+                          "value": 618,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 618,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
                           "value": 618,
                           "value_target": null
                         }
@@ -8888,6 +9593,16 @@
                           "key": "202202",
                           "value": 611,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 611,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 611,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -8934,7 +9649,7 @@
                 {
                   "name": "Experiential Training Programme",
                   "metric_type": "count",
-                  "value": 198,
+                  "value": 257,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -8943,22 +9658,22 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 48,
+                          "value": 68,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 49,
+                          "value": 62,
                           "value_target": null
                         },
                         {
                           "key": "GP",
-                          "value": 65,
+                          "value": 86,
                           "value_target": null
                         },
                         {
                           "key": "KZN",
-                          "value": 32,
+                          "value": 33,
                           "value_target": null
                         },
                         {
@@ -8968,7 +9683,7 @@
                         },
                         {
                           "key": "MP",
-                          "value": 0,
+                          "value": 2,
                           "value_target": null
                         },
                         {
@@ -8983,7 +9698,7 @@
                         },
                         {
                           "key": "WC",
-                          "value": 0,
+                          "value": 2,
                           "value_target": null
                         }
                       ],
@@ -9013,6 +9728,16 @@
                           "key": "202202",
                           "value": 198,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 257,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 257,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -9024,12 +9749,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.43,
+                          "value": 0.58,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.57,
+                          "value": 0.42,
                           "value_target": null
                         }
                       ],
@@ -9088,7 +9813,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9484,7 +10209,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9503,7 +10228,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 3099,
+                  "value": 5399.0,
                   "dimensions": [],
                   "value_target": 46598.0,
                   "implementation_detail": null
@@ -9598,6 +10323,16 @@
                           "key": "202202",
                           "value": 3099,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 3099,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 3099,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -9627,21 +10362,98 @@
                 {
                   "name": "NDA Volunteer Programme",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 2300,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 356,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 129,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 355,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 510,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 329,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 194,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 160,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 62,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 205,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 2300,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
@@ -9739,7 +10551,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -11549,7 +12361,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -11568,7 +12380,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 310,
+                  "value": 310.0,
                   "dimensions": [],
                   "value_target": 914.0,
                   "implementation_detail": null
@@ -11661,6 +12473,16 @@
                         },
                         {
                           "key": "202202",
+                          "value": 15,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 15,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
                           "value": 15,
                           "value_target": null
                         }
@@ -11788,6 +12610,16 @@
                           "key": "202202",
                           "value": 265,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 265,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 265,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -11913,6 +12745,16 @@
                           "key": "202202",
                           "value": 30,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 30,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -11988,7 +12830,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12007,7 +12849,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 918,
+                  "value": 941.0,
                   "dimensions": [],
                   "value_target": 1064.0,
                   "implementation_detail": null
@@ -12023,7 +12865,7 @@
                 {
                   "name": "Support to 40 provincial state-owned tourism attractions",
                   "metric_type": "count",
-                  "value": 616,
+                  "value": 639,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -12032,12 +12874,12 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 170,
+                          "value": 160,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 93,
+                          "value": 97,
                           "value_target": null
                         },
                         {
@@ -12052,7 +12894,7 @@
                         },
                         {
                           "key": "LP",
-                          "value": 73,
+                          "value": 78,
                           "value_target": null
                         },
                         {
@@ -12067,12 +12909,12 @@
                         },
                         {
                           "key": "NC",
-                          "value": 111,
+                          "value": 115,
                           "value_target": null
                         },
                         {
                           "key": "WC",
-                          "value": 169,
+                          "value": 189,
                           "value_target": null
                         }
                       ],
@@ -12102,6 +12944,16 @@
                           "key": "202202",
                           "value": 616,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 631,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 639,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -12113,12 +12965,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.56,
+                          "value": 0.57,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.48,
+                          "value": 0.43,
                           "value_target": null
                         }
                       ],
@@ -12131,7 +12983,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.64,
+                          "value": 0.62,
                           "value_target": null
                         }
                       ],
@@ -12227,6 +13079,16 @@
                           "key": "202202",
                           "value": 302,
                           "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 302,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 302,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -12302,7 +13164,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12538,7 +13400,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12557,7 +13419,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 50000.0,
                   "implementation_detail": null
@@ -12643,7 +13505,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202202",
+          "month": "202204",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
