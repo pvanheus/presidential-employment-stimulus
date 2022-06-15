@@ -82,6 +82,101 @@
             "value_target": -1,
             "total_value_target": null,
             "implementation_detail": null
+          },
+          {
+            "name": "Opportunties supported by province",
+            "metric_type": "count",
+            "value": [
+              0,
+              0
+            ],
+            "total_value": 0,
+            "viz": "bar",
+            "dimensions": [
+              {
+                "name": "Opportunities supported by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": {
+                      "0": 169,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": {
+                      "0": 883,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": {
+                      "0": 430,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": {
+                      "0": 0,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": {
+                      "0": 630,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": {
+                      "0": 5480,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": {
+                      "0": 897,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": {
+                      "0": 261,
+                      "1": 0
+                    },
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": {
+                      "0": 303,
+                      "1": 0
+                    },
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": 0,
+            "total_value_target": null,
+            "implementation_detail": null
           }
         ],
         "value": {
