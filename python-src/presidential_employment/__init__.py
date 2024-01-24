@@ -178,11 +178,11 @@ def load_sheets(phase1_excel, phase2_excel):
     ]
 
     row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Graduate programmes (Property Management Trading Entity)']
-    assert len(row_nums) == 1, "Error: 'Graduate programmes (Property Management Trading Entity)' is not uniquely identified in Phase 1 Targets"
+    assert len(row_nums) == 1, f"Error: 'Graduate programmes (Property Management Trading Entity)' is not uniquely identified in Phase 1 Targets: {len(row_nums)}"
     dpwi_target_row = row_nums[0]
 
     row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Subsistence producer relief fund']
-    assert len(row_nums) == 1, "Error 'Subsistence producer relief fund' is not uniquely identifed in Phase 1 Targets"
+    assert len(row_nums) == 1, f"Error 'Subsistence producer relief fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
     sprf_phase1_row = row_nums[0]
 
     opportunity_targets_df.append(
@@ -190,7 +190,7 @@ def load_sheets(phase1_excel, phase2_excel):
     )
 
     row_nums = opportunity_targets_df[1].index[opportunity_targets_df[1].iloc[:, 1] == 'Subsistence Producer Relief Fund']
-    assert len(row_nums) == 1, "Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets"
+    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
     sprf_phase2_row = row_nums[0]
 
     opportunity_achievements_df = [
@@ -224,7 +224,7 @@ def load_sheets(phase1_excel, phase2_excel):
     for i in range(len(implementation_status_df)):
         implementation_status_df[i].department = implementation_status_df[
             i
-        ].department.fillna(method="pad")
+        ].department.ffill()
         implementation_status_df[i].detail = implementation_status_df[i].detail.fillna(
             ""
         )
@@ -245,10 +245,10 @@ def load_sheets(phase1_excel, phase2_excel):
         sheet_name="Department Descriptions",
         usecols=[0,7],
         skiprows=1,
-        nrows=18,
+        nrows=19,
         names=["abbrev", "budget"],
         index_col=0
-    ).fillna(0)
+    ).fillna(0) * 1000
 
     total_budgets.append(budget_targets.budget.loc["Total"])
     department_budget_targets.append(budget_targets.drop('Total').to_dict()['budget'])
@@ -258,12 +258,13 @@ def load_sheets(phase1_excel, phase2_excel):
         sheet_name="Department Descriptions",
         usecols=[0,4],
         skiprows=1,
-        nrows=17,
+        nrows=19,
         names=["abbrev", "budget"],
         index_col=0
-    ).fillna(0)
+    ).fillna(0) * 1000
 
-    department_budget_targets.append(budget_targets.to_dict()['budget'])
+    total_budgets.append(budget_targets.budget.loc["Total"])
+    department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
     # total_budgets.append(budget_targets.budget.loc["Total"])
     # department_budget_targets.append(budget_targets)
 
@@ -321,8 +322,8 @@ def load_sheets(phase1_excel, phase2_excel):
     assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase2"
 
     for i in range(len(targets_df)):
-        targets_df[i].department = targets_df[i].department.fillna(method="pad")
-        targets_df[i].section = targets_df[i].section.fillna(method="pad")
+        targets_df[i].department = targets_df[i].department.ffill()
+        targets_df[i].section = targets_df[i].section.ffill()
 
     trends_df = [
         pd.read_excel(
@@ -345,7 +346,7 @@ def load_sheets(phase1_excel, phase2_excel):
 
     for i in range(len(trends_df)):
         trends_df[i].columns = [c.lower() for c in trends_df[i].columns]
-        trends_df[i].department = trends_df[i].department.fillna(method="pad")
+        trends_df[i].department = trends_df[i].department.ffill()
         trends_df[i] = trends_df[i].fillna(0)
         # if i == 1:
         #     # TODO: document why we drop the october column from phase2 trends
@@ -374,7 +375,7 @@ def load_sheets(phase1_excel, phase2_excel):
             c.lower().replace(" ", "_").replace("-", "_")
             for c in provincial_df[i].columns
         ]
-        provincial_df[i].department = provincial_df[i].department.fillna(method="pad")
+        provincial_df[i].department = provincial_df[i].department.ffill()
         provincial_df[i] = provincial_df[i].fillna(0)
 
     # cities and universities dimensions have been deprecated - August 2023
@@ -442,7 +443,7 @@ def load_sheets(phase1_excel, phase2_excel):
             c.lower().replace(" ", "_").replace("%", "perc").replace("no.", "no")
             for c in demographic_df[i].columns
         ]
-        demographic_df[i].department = demographic_df[i].department.fillna(method="pad")
+        demographic_df[i].department = demographic_df[i].department.ffill()
         demographic_df[i] = demographic_df[i].fillna(0)
 
     achievement_totals_df = [
@@ -566,8 +567,7 @@ def compute_all_data_departments(
     universities_df,
     leads,
     paragraphs,
-    department_budget_targets,
-    disable_time_dimension=True
+    department_budget_targets
 ):
     """Compute all_data_departments, which summarises programmes for all departments
     (what will become the department tabs)"""
@@ -588,6 +588,7 @@ def compute_all_data_departments(
             elif phase_num == 1 and (not department_name in phase2_departments):
                 continue
             department_implementation_details = []
+            # print("PHASE", phase_num, trends_df[phase_num].loc[trends_df[phase_num].department == department_name].iloc[:, -1])
             target_section = Section(
                 name=section_titles[SectionEnum.targets.name],
                 section_type=SectionEnum.targets.name,
@@ -694,20 +695,19 @@ def compute_all_data_departments(
                                 (trends_df[phase_num].department == department_name)
                                 & (trends_df[phase_num].programme == programme_name)
                             ]
-                            if not disable_time_dimension:
-                                dimensions.append(
-                                    make_dim(
-                                        LookupTypeEnum.province.name,
-                                        VizTypeEnum.bar.name,
-                                        provincial_df[phase_num],
-                                        2,  # skip first two columns
-                                        -1,  # skip last column
-                                        lambda key: province_header_to_abbrev[key],
-                                        department_name,
-                                        programme_name,
-                                        section,
-                                    )
+                            dimensions.append(
+                                make_dim(
+                                    LookupTypeEnum.province.name,
+                                    VizTypeEnum.bar.name,
+                                    provincial_df[phase_num],
+                                    2,  # skip first two columns
+                                    -1,  # skip last column
+                                    lambda key: province_header_to_abbrev[key],
+                                    department_name,
+                                    programme_name,
+                                    section,
                                 )
+                            )
                             if cities_df[phase_num] is not None:
                                 cities_dim = make_dim(
                                     LookupTypeEnum.city.name,
@@ -1426,6 +1426,7 @@ def compute_overview_metrics(
     phase_2_budget = sum(department_budget_targets[1].values())
     
     assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
+    assert total_budgets[1] == phase_2_budget, f"Budget in Phase 2 spreadsheet is not the same as computed budget: {total_budgets[1]} vs {phase_2_budget}"
 
     total_budget = PhasedMetric(
         name="Total budget allocated",

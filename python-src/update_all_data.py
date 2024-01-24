@@ -23,8 +23,8 @@ def add_or_replace(departments, department):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--phase1_excel', default="notebooks/Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
-    parser.add_argument('--phase2_excel', default='notebooks/Spreadsheet 2 - To March 2023 2 (1).xlsx')
+    parser.add_argument('--phase1_excel', default="notebooks/Copy of Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
+    parser.add_argument('--phase2_excel', default='notebooks/Copy of Spreadsheet 2 - To March 2023 2.xlsx')
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -58,20 +58,12 @@ if __name__ == '__main__':
     leads = description_df.lead.to_dict()
     paragraphs = description_df.paragraph.to_dict()
 
-    # At this point the notebook prints the targets_df
-    pd.set_option('display.max_rows', None)
-    targets_df[0]
-
-    targets_df[0][targets_df[0].section == 'CRE'].target.sum()
-
-    print(trends_df[1])
-
     ## Compute per department data structures
     all_data_departments = compute_all_data_departments(phase1_departments, phase2_departments, 
                                                     implementation_status_df, demographic_df, description_df,
                                                     targets_df, trends_df, department_names, provincial_df,
                                                     cities_df, universities_df, leads, paragraphs,
-                                                    department_budget_targets, total_budgets)
+                                                    department_budget_targets)
 
     ## Compute breakdown of all programmes by demographic dimensions   
     (total_male, 
@@ -167,8 +159,6 @@ if __name__ == '__main__':
         departments=all_data_departments
     )
 
-    pp = PrettyPrinter(indent=2)
-    pp.pprint(programmes_by_type_summarised)
     # Save final data
 
     # to work around the fact that data from pandas sometimes appears as numpy types, this uses a
